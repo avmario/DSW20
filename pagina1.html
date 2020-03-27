@@ -12,9 +12,22 @@
         <h1> Aquí va el título del Sitio</h1>
     </header>
     <nav>
-        <a href="pagina1.html">Inicio |</a>
-        <a href="pagina2.html">Actividades |</a>
-        <a href="#">Autores</a>
+        <ul class="menu">
+            <li><a href="pagina1.html">Inicio</a></li>
+            <li class="boton"><a href="#">Lecturas</a>
+            <div class="listaDesplegable">
+                <a href="pagina2.html">Opc 1</a>
+                <a href="#">Opc 2</a>
+                <a href="#">Opc 3</a>
+            </div>
+            </li>
+            <li class="boton"><a href="#">Actividades</a>
+                <div class="listaDesplegable">
+                    <a href="pagina2.html">Opc 1</a>
+                    <a href="#">Act 2</a>
+                </div>
+                </li>
+        </ul>
     </nav>
     <section class="contenedor">
         <section class="central">
@@ -36,7 +49,7 @@
         </section>
         <aside>
             <h4> Este es el lateral</h4>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam molestias incidunt ex eos esse odit inventore, nam nisi recusandae, quo minima dolor, pariatur nulla cumque voluptas sint. Repellendus, recusandae.</p>
+            <a class="twitter-timeline" data-height="450" data-theme="dark" href="https://twitter.com/PGN_COL?ref_src=twsrc%5Etfw">Tweets by PGN_COL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         </aside>
 
