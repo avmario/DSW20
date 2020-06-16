@@ -17,7 +17,7 @@
             <li class="boton"><a href="#">Lecturas</a>
             <div class="listaDesplegable">
                 <a href="pagina2.html">Opc 1</a>
-                <a href="#">Opc 2</a>
+                <a href="pagina3.html">Opc 2</a>
                 <a href="#">Opc 3</a>
             </div>
             </li>
